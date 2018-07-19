@@ -17,6 +17,7 @@
         // Initialse eCharts
 
         option = {
+            'color': ['#333', '#333'],
             "title": {
                 "text": "my bar chart",
                 textStyle: {
@@ -51,16 +52,18 @@
                 "data": [
                     281199,
                     3108107, {
-                        value: 3285344,
-                        itemStyle: {
-                            color: 'rgba(0, 0, 255, 0.5)'
+                        'value': 3285344,
+                        'itemStyle': {
+                            'normal': {
+                                'color': '#00ff00'
+                            }
                         }
                     },
                     2285344
                 ],
             }, {
                 "name": "Female",
-                "type": "line",
+                "type": "bar",
                 "data": [
                     2710290,
                     3109449,
